@@ -177,6 +177,6 @@ li p{
 
 
 @media screen and (max-width: 1000px) {
-    .sure-span, .edit-span{width: 75%;
-    left: 12%;}
+    .sure-span, .edit-span{width: 80%;
+    left: 10%;}
 }

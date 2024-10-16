@@ -20,7 +20,7 @@ function add(){
     let surespan = document.createElement('span')
     surespan.setAttribute('class', 'sure-span')
     let p = document.createElement('p')
-    p.innerText = 'Are you sure ?'
+    p.innerText = 'Are you sure?'
     let yesbtn = document.createElement('button')
     yesbtn.setAttribute('class', 'yesbtn')
     yesbtn.innerText = 'yes'
