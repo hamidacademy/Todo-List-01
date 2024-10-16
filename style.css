@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+h1{
+    position: absolute;
+    top: 7px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project{
+    border: 4px solid black;
+    background-color: #F2E5D5;
+    width: 600px;
+    height: auto;
+    margin: 30px;
+    margin-top: 60px;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.input-div{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.input-name{
+    width: 60%;
+    height: 100%;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.addbtn{
+    width: 100px;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.addbtn:hover{
+    background-color: rgba(0, 128, 0, 0.651);
+}
+
+.Name-div{
+    width: 100%;
+    height: 92%;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.ulclass{
+    margin: 2px;
+}
+
+li{
+    font-size: 140%;
+    height: auto;
+    background-color: #fef9f29f;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 7px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+li p{
+    width: 60%;
+    height: auto;
+    word-wrap: break-word;
+}
+.btn-div{
+    width: 35%;
+    height: 40px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    display: flex;
+}
+.editbtn, .deletebtn {
+    width: 100%;
+    height: 80%;
+    border-radius: 7px;
+}
+.editbtn:hover{
+    background-color: orange;
+}
+.deletebtn:hover{
+    background-color: rgb(212, 70, 70);
+}
+
+.sure-span{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    height: 40%;
+    font-size: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #e0b886;
+    display: none;
+}
+
+.sure-span p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.yesbtn, .nobtn, .updatebtn, .canclebtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.yesbtn:hover{
+    background-color: green;
+}
+.nobtn:hover{
+    background-color: red;
+}
+.updatebtn:hover{
+    background-color: green;
+}
+.canclebtn:hover{
+    background-color: red;
+}
+
+.edit-span{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    height: 40%;
+    font-size: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #e0b886;
+    display: none;
+}
+
+.edit-input{
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .sure-span, .edit-span{width: 70%;
+    left: 15%;}
+}
